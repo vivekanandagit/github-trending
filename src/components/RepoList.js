@@ -1,4 +1,3 @@
-// src/components/RepoList.js
 import React, { useEffect, useState } from "react";
 import { Card, Button, List, Select } from "antd";
 import { fetchTrendingRepositories } from "../services/githubService";
