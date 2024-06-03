@@ -82,6 +82,6 @@ test("filters repositories by language", async () => {
   });
 
   await waitFor(() => {
-    expect(screen.queryByText("Repo 2")).not.toBeInTheDocument();
+    expect(screen.queryByText("Repо 2")).not.toBeInTheDocument();
   });
 });

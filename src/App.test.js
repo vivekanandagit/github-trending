@@ -15,7 +15,9 @@ test("switches between tabs", () => {
 
   fireEvent.click(screen.getByText("Starred Repositories"));
 
-  expect(screen.getByText("Starred Repositories")).toHaveClass(
-    "ant-tabs-tab-active"
-  );
+  const starredTabParent = screen
+    .getByText("Starred Repositories")
+    .closest(".ant-tabs-tab");
+
+  expect(starredTabParent).toHaveClass("ant-tabs-tab-active");
 });
