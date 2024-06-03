@@ -1,5 +1,7 @@
 # github-trending
 
+Hosted at https://vivekanandagit.github.io/github-trending/
+
 - I prioritised simplicity and avoided over engineering the solution
 - Used create react app as base
 - Used ReactJs and ant design to match with the job description despite having not worked on react in the past 2 years
